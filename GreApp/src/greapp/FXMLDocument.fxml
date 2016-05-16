@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="600.0" style="-fx-background-color: #5cd6d6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <PasswordField layoutX="210.0" layoutY="206.0" prefHeight="35.0" prefWidth="180.0" promptText="Password" style="-fx-cursor: text;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#2ad15b" height="52.62" radius="12.655" width="0.0" />
+         </effect>
+      </PasswordField>
+      <TextField layoutX="210.0" layoutY="139.0" prefHeight="35.0" prefWidth="180.0" promptText="Username" style="-fx-cursor: text;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#2ad15b" height="26.31" radius="8.3025" width="8.9" />
+         </effect>
+      </TextField>
+      <Button layoutX="210.0" layoutY="276.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="180.0" text="Sign in">
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" choke="0.03" color="#13eb4e" height="47.69" radius="19.5775" width="32.62" />
+         </effect></Button>
+   </children>
+</Pane>
